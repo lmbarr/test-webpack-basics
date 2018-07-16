@@ -4,6 +4,7 @@ import images from './imgs/images.png';
 import image3 from './imgs/images3.png';
 import images12 from './imgs/images12.png';
 import index from './imgs/index.png'
+import './index.css'
 
 const img1 = document.getElementById('img1');
 const img2 = document.getElementById('img2');
