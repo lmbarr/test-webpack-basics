@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ./src/index.js",
-    "stats": "webpack --profile --json > webpack-stats.json"
+    "stats": "webpack --profile --json > webpack-stats.json",
+    "server": "node app-server"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +19,8 @@
     "babel-preset-react": "^6.24.1",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
